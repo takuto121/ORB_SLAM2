@@ -45,9 +45,11 @@ int main(int argc, char **argv)
 
     bool vis_flag=false;
     if (argv[4]=="true"){
+      printf("Visualization mode");
       vis_flag=true;
+    }else{
+      printf("Non Visualization mode");
     }
-
     // Retrieve paths to images
     vector<string> vstrImageFilenames;
     vector<double> vTimestamps;
