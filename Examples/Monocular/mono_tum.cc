@@ -44,7 +44,7 @@ int main(int argc, char **argv)
 
 
     bool vis_flag=false;
-    if (argv[4]=="true"){
+    if (argv[4].compare("true")){
       printf("Visualization mode");
       vis_flag=true;
     }else{
